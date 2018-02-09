@@ -1,0 +1,40 @@
+Sample I/O
+
+(simplify '(+ 3 5))
+-> 8
+
+(simplify '(+ 1 (* 2 3)))
+-> 7
+
+(simplify '(+ 2 (+ a 3)))
+-> (+ 5 a)
+
+(simplify '(+ y (+ x z)))
+-> (+ (+ y x) z)
+
+(simplify '(+(* w (- x z ) )(* 5 (- x y))))
+-> (+ (- (* w x) (* w z)) (- (* 5 x) (* 5 y)))
+
+
+(load "a1.scm")
+(1)	 (simplify '(+ 3 3))
+(2)	 (simplify '(+ t 3))
+(3)	 (simplify '(* 3 4))
+(4)	 (simplify '(* t 3))
+(5)	 (simplify '(- 3 2))
+(6)	 (simplify '(- t 3))
+     (simplify '(- 3 t))
+(7)	 (simplify '(+ t1 ( + t2 t3)))
+(8)	 (simplify '(* t1 (* t2 t3)))
+(9)  (simplify '(+ (+ 3 t) 4))
+(10) (simplify '(* (* 3 t) 4))
+(11) (simplify '(* (+ 3 t) 4))
+(12) (simplify '(* 3 (+ 4 t)))
+(13) (simplify '(* (+ t1 t2) 3))
+(14) (simplify '(* 3 (+ t1 t2)))
+(15) (simplify '(* (- t1 t2) 3))
+(16) (simplify '(* 3 (- t1 t2)))
+(17) (simplify '(* (+ t1 t2) t3))
+(18) (simplify '(* t1 (+ t2 t3)))
+(19) (simplify '(* (- t1 t2) t3))
+(20) (simplify '(* t1 (- t2 t3)))
