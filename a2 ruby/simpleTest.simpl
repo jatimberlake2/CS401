@@ -1,0 +1,95 @@
+//Welcome to syntax errors anonymous~
+//Any statements with leading "//" will invalidate the program when comments are removed
+
+if a < 1 and b < 2 then    
+        jj:=1+2+3-4+5+6-(3+3);
+        for itr from 0 to M-1 do
+                bb:= 2;
+                pt:=(((4/3)+1));
+        end;
+                pp:=(((3*3)+1));
+                hh:=1+(2+3)+3*4;
+end;
+
+if a < 3 and b < 4 then     
+    if a < 2 and b < 5 then  
+        aa:= 1+1;
+        bb:= 2;
+        cc:=3;
+    else
+        dd:=1;
+        ee:=56;
+    end;
+end;
+
+for iter from 0 to N-1 by (1+2) do              // iterative fibonacci 
+        tmp := prev + curr;
+        bb := (1+2);
+        if a < 2 and b < 5 then 
+                prev := curr;
+        else
+                dd:=1;
+                ee:=56;
+        end;
+curr := tmp;
+a := b; end
+;
+
+a:=(3+4)*1;
+b:=2+1;
+c:=3/2;
+d:=(3/2)+2*4;
+//e:=(3/2)+2*4/2-2;
+//f:=(3/2)+2*(4/2)-2;
+g:=(3+4)*(1+2);
+h:=(3+4)+(3);
+//i:=(3+4)+2+;
+j:=(3+4)+(2+3);
+k:=(3*4)+(2+3);
+l:=(3*4)+(2*3);
+m:=(3*4)*(2*3);
+n:=(3-4)*(2*3);
+o:=(3-4)*(2/3);
+p:=(3-4)+(2/3);
+q:=(3-4)-(2/3);
+r:=(3-4)+(n/m)+l+k+2-i/h;
+s:=(3-4)/(2*3);
+t:=(5-4)/(2/3);
+//u:=+-;
+//v:=(3+4;
+//w:=3/2+1-0;
+//x:=(3+4)+2*;
+//y:=(3+4)+2-;
+//z:=(3+4)+2/;
+
+//HEY THERE
+
+aa:=1;
+bb:=(2);
+cc:=1+2;
+dd:=(1+2+3);
+ee:=1+2+3;
+//ff:=1+2+;
+//gg:= 1++2;
+hh:=1+(2+3)+3;
+ii:=(2+3)-(a+b);
+jj:=1+2+3-4-5+6-(3+3);
+kk:=2*3;
+//bb:=(/);
+ll:=2*3*4*5;
+mm:=(2+1)*3;
+nn:=3*(2+1);
+oo:=(((3)));
+pp:=(((3*3)+1));
+//qq:=(4+);
+//rr:=((a+b)+);
+//ss:=)(*/)+-3;
+//tt:=+-3 4;
+//uu:=**6;
+//vv:=*6*;
+ww:=1234124591348 + b;
+//xx:=@#$%&%#^*$^#%$;
+//yy:=;;;;;;
+//zz:=a
+
+//hey, random non-syntax!
